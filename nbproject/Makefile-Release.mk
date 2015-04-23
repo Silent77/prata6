@@ -35,6 +35,18 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/Chapter10/stack.o \
+	${OBJECTDIR}/Chapter10/stacker.o \
+	${OBJECTDIR}/Chapter10/stock00.o \
+	${OBJECTDIR}/Chapter10/stock01.o \
+	${OBJECTDIR}/Chapter10/stock10.o \
+	${OBJECTDIR}/Chapter10/stock20.o \
+	${OBJECTDIR}/Chapter10/stock20_1.o \
+	${OBJECTDIR}/Chapter10/stocks.o \
+	${OBJECTDIR}/Chapter10/temp20.o \
+	${OBJECTDIR}/Chapter10/usestok0.o \
+	${OBJECTDIR}/Chapter10/usestok1.o \
+	${OBJECTDIR}/Chapter10/usestok2.o \
 	${OBJECTDIR}/Chapter12/bank.o \
 	${OBJECTDIR}/Chapter12/placenew1.o \
 	${OBJECTDIR}/Chapter12/placenew2.o \
@@ -71,6 +83,66 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/prata6.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/prata6 ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/Chapter10/stack.o: Chapter10/stack.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter10
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter10/stack.o Chapter10/stack.cpp
+
+${OBJECTDIR}/Chapter10/stacker.o: Chapter10/stacker.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter10
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter10/stacker.o Chapter10/stacker.cpp
+
+${OBJECTDIR}/Chapter10/stock00.o: Chapter10/stock00.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter10
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter10/stock00.o Chapter10/stock00.cpp
+
+${OBJECTDIR}/Chapter10/stock01.o: Chapter10/stock01.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter10
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter10/stock01.o Chapter10/stock01.cpp
+
+${OBJECTDIR}/Chapter10/stock10.o: Chapter10/stock10.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter10
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter10/stock10.o Chapter10/stock10.cpp
+
+${OBJECTDIR}/Chapter10/stock20.o: Chapter10/stock20.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter10
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter10/stock20.o Chapter10/stock20.cpp
+
+${OBJECTDIR}/Chapter10/stock20_1.o: Chapter10/stock20_1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter10
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter10/stock20_1.o Chapter10/stock20_1.cpp
+
+${OBJECTDIR}/Chapter10/stocks.o: Chapter10/stocks.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter10
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter10/stocks.o Chapter10/stocks.cpp
+
+${OBJECTDIR}/Chapter10/temp20.o: Chapter10/temp20.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter10
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter10/temp20.o Chapter10/temp20.cpp
+
+${OBJECTDIR}/Chapter10/usestok0.o: Chapter10/usestok0.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter10
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter10/usestok0.o Chapter10/usestok0.cpp
+
+${OBJECTDIR}/Chapter10/usestok1.o: Chapter10/usestok1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter10
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter10/usestok1.o Chapter10/usestok1.cpp
+
+${OBJECTDIR}/Chapter10/usestok2.o: Chapter10/usestok2.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter10
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter10/usestok2.o Chapter10/usestok2.cpp
 
 ${OBJECTDIR}/Chapter12/bank.o: Chapter12/bank.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Chapter12

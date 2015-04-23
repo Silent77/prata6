@@ -35,9 +35,11 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/Chapter10/stack.o \
+	${OBJECTDIR}/Chapter10/stock20_1.o \
+	${OBJECTDIR}/Chapter10/usestok2.o \
 	${OBJECTDIR}/Chapter12/queue.o \
-	${OBJECTDIR}/Chapter12/string2.o \
-	${OBJECTDIR}/Chapter12/usestr2.o
+	${OBJECTDIR}/Chapter12/string2.o
 
 
 # C Compiler Flags
@@ -64,6 +66,21 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/prata6.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/prata6 ${OBJECTFILES} ${LDLIBSOPTIONS}
 
+${OBJECTDIR}/Chapter10/stack.o: Chapter10/stack.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter10
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter10/stack.o Chapter10/stack.cpp
+
+${OBJECTDIR}/Chapter10/stock20_1.o: Chapter10/stock20_1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter10
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter10/stock20_1.o Chapter10/stock20_1.cpp
+
+${OBJECTDIR}/Chapter10/usestok2.o: Chapter10/usestok2.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter10
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter10/usestok2.o Chapter10/usestok2.cpp
+
 ${OBJECTDIR}/Chapter12/queue.o: Chapter12/queue.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Chapter12
 	${RM} "$@.d"
@@ -73,11 +90,6 @@ ${OBJECTDIR}/Chapter12/string2.o: Chapter12/string2.cpp
 	${MKDIR} -p ${OBJECTDIR}/Chapter12
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter12/string2.o Chapter12/string2.cpp
-
-${OBJECTDIR}/Chapter12/usestr2.o: Chapter12/usestr2.cpp 
-	${MKDIR} -p ${OBJECTDIR}/Chapter12
-	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter12/usestr2.o Chapter12/usestr2.cpp
 
 # Subprojects
 .build-subprojects:

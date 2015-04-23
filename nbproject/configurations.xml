@@ -4,6 +4,26 @@
     <logicalFolder name="SourceFiles"
                    displayName="Исходные файлы"
                    projectFiles="true">
+      <logicalFolder name="Chapter10" displayName="Chapter10" projectFiles="true">
+        <itemPath>Chapter10/stack.cpp</itemPath>
+        <itemPath>Chapter10/stack.h</itemPath>
+        <itemPath>Chapter10/stack1.h</itemPath>
+        <itemPath>Chapter10/stacker.cpp</itemPath>
+        <itemPath>Chapter10/stock00.cpp</itemPath>
+        <itemPath>Chapter10/stock00.h</itemPath>
+        <itemPath>Chapter10/stock01.cpp</itemPath>
+        <itemPath>Chapter10/stock10.cpp</itemPath>
+        <itemPath>Chapter10/stock10.h</itemPath>
+        <itemPath>Chapter10/stock20.cpp</itemPath>
+        <itemPath>Chapter10/stock20.h</itemPath>
+        <itemPath>Chapter10/stock20_1.cpp</itemPath>
+        <itemPath>Chapter10/stock20_1.h</itemPath>
+        <itemPath>Chapter10/stocks.cpp</itemPath>
+        <itemPath>Chapter10/temp20.cpp</itemPath>
+        <itemPath>Chapter10/usestok0.cpp</itemPath>
+        <itemPath>Chapter10/usestok1.cpp</itemPath>
+        <itemPath>Chapter10/usestok2.cpp</itemPath>
+      </logicalFolder>
       <logicalFolder name="Chapter12" displayName="Chapter12" projectFiles="true">
         <itemPath>Chapter12/bank.cpp</itemPath>
         <itemPath>Chapter12/placenew1.cpp</itemPath>
@@ -45,6 +65,7 @@
   <sourceRootList>
     <Elem>Chapter 12</Elem>
     <Elem>Chapter12</Elem>
+    <Elem>Chapter10</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -56,6 +77,24 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="Chapter10/stack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter10/stack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter10/stack1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter10/stock00.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter10/stock10.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter10/stock20.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter10/stock20_1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter10/stock20_1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter10/usestok2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="Chapter12/queue.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Chapter12/queue.h" ex="false" tool="3" flavor2="0">
@@ -67,8 +106,6 @@
       <item path="Chapter12/string2.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Chapter12/strngbad.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="Chapter12/usestr2.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -91,6 +128,42 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Chapter10/stack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter10/stack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter10/stack1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter10/stacker.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter10/stock00.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter10/stock00.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter10/stock01.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter10/stock10.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter10/stock10.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter10/stock20.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter10/stock20.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter10/stock20_1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter10/stock20_1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter10/stocks.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter10/temp20.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter10/usestok0.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter10/usestok1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter10/usestok2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="Chapter12/bank.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Chapter12/placenew1.cpp" ex="false" tool="1" flavor2="0">

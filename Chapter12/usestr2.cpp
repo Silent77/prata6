@@ -41,9 +41,13 @@ int main(int argc, char** argv) {
                 success = true;
                 break;                        
             }
-            if (success)
-                break;
         }
+        if (success)
+            break;
+        else
+            cout << "Try again!\n";
     }
+    cout << "Bye!\n";
+    return 0;
 }
 

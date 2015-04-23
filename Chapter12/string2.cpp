@@ -23,7 +23,7 @@ String::String(const char * s)     // construct String from C string
     str = new char[len + 1];       // allot storage
     std::strcpy(str, s);           // initialize pointer
     num_strings++;                 // set object count
-    cout<<"The string was created"<<endl;
+    //cout<<"The string was created"<<endl;
 }
 
 String::String()                   // default constructor
@@ -32,7 +32,7 @@ String::String()                   // default constructor
     str = new char[1];
     str[0] = '\0';                 // default string
     num_strings++;
-    cout<<"The string was created"<<endl;
+    //cout<<"The string was created"<<endl;
 }
 
 String::String(const String & st)
@@ -41,14 +41,14 @@ String::String(const String & st)
     len = st.len;              // same length
     str = new char [len + 1];  // allot space
     std::strcpy(str, st.str);  // copy string to new location
-    cout<<"The string was created"<<endl;    
+    //cout<<"The string was created"<<endl;    
 }
 
 String::~String()                     // necessary destructor
 {
     --num_strings;                    // required
     delete [] str;                    // required
-    cout<<"The string was deleted"<<endl;
+    //cout<<"The string was deleted"<<endl;
 }
 
 // overloaded operator methods    
@@ -62,7 +62,7 @@ String & String::operator=(const String & st)
     len = st.len;
     str = new char[len + 1];
     std::strcpy(str, st.str);
-    cout<<"The string was assigned"<<endl;    
+    //cout<<"The string was assigned"<<endl;    
     return *this;
 }
 
@@ -132,7 +132,7 @@ String operator +(const String& st1, const String & st2)
     temp.len=st1.len+st2.len;
     temp.str=new char[temp.len+1];
     std::strcpy (temp.str,st1.str);
-    std::strcpy (temp.str + st1.len,st2.str);
+    std::strcat (temp.str,st2.str);
     return temp;    
 }
 
