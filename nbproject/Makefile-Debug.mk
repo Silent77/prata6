@@ -36,6 +36,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/Chapter10/stack.o \
+	${OBJECTDIR}/Chapter10/stack2.o \
 	${OBJECTDIR}/Chapter10/stock20_1.o \
 	${OBJECTDIR}/Chapter10/usestok2.o \
 	${OBJECTDIR}/Chapter12/queue.o \
@@ -70,6 +71,11 @@ ${OBJECTDIR}/Chapter10/stack.o: Chapter10/stack.cpp
 	${MKDIR} -p ${OBJECTDIR}/Chapter10
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter10/stack.o Chapter10/stack.cpp
+
+${OBJECTDIR}/Chapter10/stack2.o: Chapter10/stack2.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter10
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter10/stack2.o Chapter10/stack2.cpp
 
 ${OBJECTDIR}/Chapter10/stock20_1.o: Chapter10/stock20_1.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Chapter10

@@ -8,6 +8,8 @@
         <itemPath>Chapter10/stack.cpp</itemPath>
         <itemPath>Chapter10/stack.h</itemPath>
         <itemPath>Chapter10/stack1.h</itemPath>
+        <itemPath>Chapter10/stack2.cpp</itemPath>
+        <itemPath>Chapter10/stack2.h</itemPath>
         <itemPath>Chapter10/stacker.cpp</itemPath>
         <itemPath>Chapter10/stock00.cpp</itemPath>
         <itemPath>Chapter10/stock00.h</itemPath>
@@ -83,6 +85,10 @@
       </item>
       <item path="Chapter10/stack1.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Chapter10/stack2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter10/stack2.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Chapter10/stock00.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Chapter10/stock10.h" ex="false" tool="3" flavor2="0">
@@ -133,6 +139,10 @@
       <item path="Chapter10/stack.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Chapter10/stack1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter10/stack2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter10/stack2.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Chapter10/stacker.cpp" ex="false" tool="1" flavor2="0">
       </item>

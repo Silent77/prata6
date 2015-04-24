@@ -1,15 +1,10 @@
 // stack.cpp -- Stack member functions
-#include "stack2.h"
+#include "stack.h"
 Stack::Stack()    // create an empty stack
 {
-    top  = 0;
-    size = 0;
+    top = 0;
 }
-Stack::Stack(int n)
-{
-    if (n > MAX) 
-        n = MAX;
-}
+
 bool Stack::isempty() const
 {
     return top == 0;
@@ -24,7 +19,7 @@ bool Stack::push(const Item & item)
 {
     if (top < MAX)
     {
-        pitems[top++] = item;
+        items[top++] = item;
         return true;
     }
     else
@@ -35,7 +30,7 @@ bool Stack::pop(Item & item)
 {
     if (top > 0)
     {
-        item = pitems[--top];
+        item = items[--top];
         return true;
     }
     else
