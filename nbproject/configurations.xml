@@ -43,6 +43,35 @@
         <itemPath>Chapter12/usestr2.cpp</itemPath>
         <itemPath>Chapter12/vegnews.cpp</itemPath>
       </logicalFolder>
+      <logicalFolder name="Chapter13" displayName="Chapter13" projectFiles="true">
+        <itemPath>Chapter13/acctabc.cpp</itemPath>
+        <itemPath>Chapter13/acctabc.h</itemPath>
+        <itemPath>Chapter13/brass.cpp</itemPath>
+        <itemPath>Chapter13/brass.h</itemPath>
+        <itemPath>Chapter13/cd.cpp</itemPath>
+        <itemPath>Chapter13/cd.h</itemPath>
+        <itemPath>Chapter13/cd1.cpp</itemPath>
+        <itemPath>Chapter13/cd1.h</itemPath>
+        <itemPath>Chapter13/dma.cpp</itemPath>
+        <itemPath>Chapter13/dma.h</itemPath>
+        <itemPath>Chapter13/dma1.cpp</itemPath>
+        <itemPath>Chapter13/dma1.h</itemPath>
+        <itemPath>Chapter13/port.cpp</itemPath>
+        <itemPath>Chapter13/port.h</itemPath>
+        <itemPath>Chapter13/tabtenn0.cpp</itemPath>
+        <itemPath>Chapter13/tabtenn0.h</itemPath>
+        <itemPath>Chapter13/tabtenn1.cpp</itemPath>
+        <itemPath>Chapter13/tabtenn1.h</itemPath>
+        <itemPath>Chapter13/usebrass1.cpp</itemPath>
+        <itemPath>Chapter13/usebrass2.cpp</itemPath>
+        <itemPath>Chapter13/usebrass3.cpp</itemPath>
+        <itemPath>Chapter13/usecd.cpp</itemPath>
+        <itemPath>Chapter13/usedma.cpp</itemPath>
+        <itemPath>Chapter13/usedma1.cpp</itemPath>
+        <itemPath>Chapter13/useport.cpp</itemPath>
+        <itemPath>Chapter13/usett0.cpp</itemPath>
+        <itemPath>Chapter13/usett1.cpp</itemPath>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="HeaderFiles"
                    displayName="Файлы заголовков"
@@ -68,6 +97,7 @@
     <Elem>Chapter 12</Elem>
     <Elem>Chapter12</Elem>
     <Elem>Chapter10</Elem>
+    <Elem>Chapter13</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -85,8 +115,6 @@
       </item>
       <item path="Chapter10/stack1.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Chapter10/stack2.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="Chapter10/stack2.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Chapter10/stock00.h" ex="false" tool="3" flavor2="0">
@@ -99,8 +127,6 @@
       </item>
       <item path="Chapter10/stock20_1.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Chapter10/usestok2.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="Chapter12/queue.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Chapter12/queue.h" ex="false" tool="3" flavor2="0">
@@ -112,6 +138,36 @@
       <item path="Chapter12/string2.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Chapter12/strngbad.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter13/acctabc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter13/acctabc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter13/brass.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter13/cd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter13/cd1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter13/cd1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter13/dma.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter13/dma1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter13/dma1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter13/port.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter13/port.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter13/tabtenn0.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter13/tabtenn1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter13/tabtenn1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter13/useport.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -203,6 +259,60 @@
       <item path="Chapter12/usestr2.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Chapter12/vegnews.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter13/acctabc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter13/acctabc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter13/brass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter13/brass.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter13/cd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter13/cd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter13/cd1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter13/cd1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter13/dma.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter13/dma.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter13/dma1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter13/dma1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter13/port.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter13/port.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter13/tabtenn0.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter13/tabtenn0.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter13/tabtenn1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter13/tabtenn1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter13/usebrass1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter13/usebrass2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter13/usebrass3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter13/usecd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter13/usedma.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter13/usedma1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter13/useport.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter13/usett0.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter13/usett1.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
   </confs>

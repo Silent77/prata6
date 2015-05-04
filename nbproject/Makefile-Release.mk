@@ -58,7 +58,25 @@ OBJECTFILES= \
 	${OBJECTDIR}/Chapter12/string2.o \
 	${OBJECTDIR}/Chapter12/strngbad.o \
 	${OBJECTDIR}/Chapter12/usestr2.o \
-	${OBJECTDIR}/Chapter12/vegnews.o
+	${OBJECTDIR}/Chapter12/vegnews.o \
+	${OBJECTDIR}/Chapter13/acctabc.o \
+	${OBJECTDIR}/Chapter13/brass.o \
+	${OBJECTDIR}/Chapter13/cd.o \
+	${OBJECTDIR}/Chapter13/cd1.o \
+	${OBJECTDIR}/Chapter13/dma.o \
+	${OBJECTDIR}/Chapter13/dma1.o \
+	${OBJECTDIR}/Chapter13/port.o \
+	${OBJECTDIR}/Chapter13/tabtenn0.o \
+	${OBJECTDIR}/Chapter13/tabtenn1.o \
+	${OBJECTDIR}/Chapter13/usebrass1.o \
+	${OBJECTDIR}/Chapter13/usebrass2.o \
+	${OBJECTDIR}/Chapter13/usebrass3.o \
+	${OBJECTDIR}/Chapter13/usecd.o \
+	${OBJECTDIR}/Chapter13/usedma.o \
+	${OBJECTDIR}/Chapter13/usedma1.o \
+	${OBJECTDIR}/Chapter13/useport.o \
+	${OBJECTDIR}/Chapter13/usett0.o \
+	${OBJECTDIR}/Chapter13/usett1.o
 
 
 # C Compiler Flags
@@ -204,6 +222,96 @@ ${OBJECTDIR}/Chapter12/vegnews.o: Chapter12/vegnews.cpp
 	${MKDIR} -p ${OBJECTDIR}/Chapter12
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter12/vegnews.o Chapter12/vegnews.cpp
+
+${OBJECTDIR}/Chapter13/acctabc.o: Chapter13/acctabc.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/acctabc.o Chapter13/acctabc.cpp
+
+${OBJECTDIR}/Chapter13/brass.o: Chapter13/brass.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/brass.o Chapter13/brass.cpp
+
+${OBJECTDIR}/Chapter13/cd.o: Chapter13/cd.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/cd.o Chapter13/cd.cpp
+
+${OBJECTDIR}/Chapter13/cd1.o: Chapter13/cd1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/cd1.o Chapter13/cd1.cpp
+
+${OBJECTDIR}/Chapter13/dma.o: Chapter13/dma.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/dma.o Chapter13/dma.cpp
+
+${OBJECTDIR}/Chapter13/dma1.o: Chapter13/dma1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/dma1.o Chapter13/dma1.cpp
+
+${OBJECTDIR}/Chapter13/port.o: Chapter13/port.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/port.o Chapter13/port.cpp
+
+${OBJECTDIR}/Chapter13/tabtenn0.o: Chapter13/tabtenn0.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/tabtenn0.o Chapter13/tabtenn0.cpp
+
+${OBJECTDIR}/Chapter13/tabtenn1.o: Chapter13/tabtenn1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/tabtenn1.o Chapter13/tabtenn1.cpp
+
+${OBJECTDIR}/Chapter13/usebrass1.o: Chapter13/usebrass1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/usebrass1.o Chapter13/usebrass1.cpp
+
+${OBJECTDIR}/Chapter13/usebrass2.o: Chapter13/usebrass2.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/usebrass2.o Chapter13/usebrass2.cpp
+
+${OBJECTDIR}/Chapter13/usebrass3.o: Chapter13/usebrass3.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/usebrass3.o Chapter13/usebrass3.cpp
+
+${OBJECTDIR}/Chapter13/usecd.o: Chapter13/usecd.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/usecd.o Chapter13/usecd.cpp
+
+${OBJECTDIR}/Chapter13/usedma.o: Chapter13/usedma.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/usedma.o Chapter13/usedma.cpp
+
+${OBJECTDIR}/Chapter13/usedma1.o: Chapter13/usedma1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/usedma1.o Chapter13/usedma1.cpp
+
+${OBJECTDIR}/Chapter13/useport.o: Chapter13/useport.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/useport.o Chapter13/useport.cpp
+
+${OBJECTDIR}/Chapter13/usett0.o: Chapter13/usett0.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/usett0.o Chapter13/usett0.cpp
+
+${OBJECTDIR}/Chapter13/usett1.o: Chapter13/usett1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/usett1.o Chapter13/usett1.cpp
 
 # Subprojects
 .build-subprojects:

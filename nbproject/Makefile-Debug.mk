@@ -36,11 +36,15 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/Chapter10/stack.o \
-	${OBJECTDIR}/Chapter10/stack2.o \
 	${OBJECTDIR}/Chapter10/stock20_1.o \
-	${OBJECTDIR}/Chapter10/usestok2.o \
 	${OBJECTDIR}/Chapter12/queue.o \
-	${OBJECTDIR}/Chapter12/string2.o
+	${OBJECTDIR}/Chapter12/string2.o \
+	${OBJECTDIR}/Chapter13/acctabc.o \
+	${OBJECTDIR}/Chapter13/cd1.o \
+	${OBJECTDIR}/Chapter13/dma1.o \
+	${OBJECTDIR}/Chapter13/port.o \
+	${OBJECTDIR}/Chapter13/tabtenn1.o \
+	${OBJECTDIR}/Chapter13/useport.o
 
 
 # C Compiler Flags
@@ -72,20 +76,10 @@ ${OBJECTDIR}/Chapter10/stack.o: Chapter10/stack.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter10/stack.o Chapter10/stack.cpp
 
-${OBJECTDIR}/Chapter10/stack2.o: Chapter10/stack2.cpp 
-	${MKDIR} -p ${OBJECTDIR}/Chapter10
-	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter10/stack2.o Chapter10/stack2.cpp
-
 ${OBJECTDIR}/Chapter10/stock20_1.o: Chapter10/stock20_1.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Chapter10
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter10/stock20_1.o Chapter10/stock20_1.cpp
-
-${OBJECTDIR}/Chapter10/usestok2.o: Chapter10/usestok2.cpp 
-	${MKDIR} -p ${OBJECTDIR}/Chapter10
-	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter10/usestok2.o Chapter10/usestok2.cpp
 
 ${OBJECTDIR}/Chapter12/queue.o: Chapter12/queue.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Chapter12
@@ -96,6 +90,36 @@ ${OBJECTDIR}/Chapter12/string2.o: Chapter12/string2.cpp
 	${MKDIR} -p ${OBJECTDIR}/Chapter12
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter12/string2.o Chapter12/string2.cpp
+
+${OBJECTDIR}/Chapter13/acctabc.o: Chapter13/acctabc.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/acctabc.o Chapter13/acctabc.cpp
+
+${OBJECTDIR}/Chapter13/cd1.o: Chapter13/cd1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/cd1.o Chapter13/cd1.cpp
+
+${OBJECTDIR}/Chapter13/dma1.o: Chapter13/dma1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/dma1.o Chapter13/dma1.cpp
+
+${OBJECTDIR}/Chapter13/port.o: Chapter13/port.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/port.o Chapter13/port.cpp
+
+${OBJECTDIR}/Chapter13/tabtenn1.o: Chapter13/tabtenn1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/tabtenn1.o Chapter13/tabtenn1.cpp
+
+${OBJECTDIR}/Chapter13/useport.o: Chapter13/useport.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter13
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/useport.o Chapter13/useport.cpp
 
 # Subprojects
 .build-subprojects:
