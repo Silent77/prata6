@@ -76,7 +76,26 @@ OBJECTFILES= \
 	${OBJECTDIR}/Chapter13/usedma1.o \
 	${OBJECTDIR}/Chapter13/useport.o \
 	${OBJECTDIR}/Chapter13/usett0.o \
-	${OBJECTDIR}/Chapter13/usett1.o
+	${OBJECTDIR}/Chapter13/usett1.o \
+	${OBJECTDIR}/Chapter14/frnd2tmp.o \
+	${OBJECTDIR}/Chapter14/manyfrnd.o \
+	${OBJECTDIR}/Chapter14/pairs.o \
+	${OBJECTDIR}/Chapter14/stacktem.o \
+	${OBJECTDIR}/Chapter14/stckoptr1.o \
+	${OBJECTDIR}/Chapter14/studentc.o \
+	${OBJECTDIR}/Chapter14/studenti.o \
+	${OBJECTDIR}/Chapter14/tempmemb.o \
+	${OBJECTDIR}/Chapter14/tempparm.o \
+	${OBJECTDIR}/Chapter14/tmp2tmp.o \
+	${OBJECTDIR}/Chapter14/twod.o \
+	${OBJECTDIR}/Chapter14/use_stuc.o \
+	${OBJECTDIR}/Chapter14/use_stui.o \
+	${OBJECTDIR}/Chapter14/usewine.o \
+	${OBJECTDIR}/Chapter14/wine.o \
+	${OBJECTDIR}/Chapter14/worker0.o \
+	${OBJECTDIR}/Chapter14/workermi.o \
+	${OBJECTDIR}/Chapter14/workmi.o \
+	${OBJECTDIR}/Chapter14/worktest.o
 
 
 # C Compiler Flags
@@ -312,6 +331,101 @@ ${OBJECTDIR}/Chapter13/usett1.o: Chapter13/usett1.cpp
 	${MKDIR} -p ${OBJECTDIR}/Chapter13
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/usett1.o Chapter13/usett1.cpp
+
+${OBJECTDIR}/Chapter14/frnd2tmp.o: Chapter14/frnd2tmp.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/frnd2tmp.o Chapter14/frnd2tmp.cpp
+
+${OBJECTDIR}/Chapter14/manyfrnd.o: Chapter14/manyfrnd.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/manyfrnd.o Chapter14/manyfrnd.cpp
+
+${OBJECTDIR}/Chapter14/pairs.o: Chapter14/pairs.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/pairs.o Chapter14/pairs.cpp
+
+${OBJECTDIR}/Chapter14/stacktem.o: Chapter14/stacktem.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/stacktem.o Chapter14/stacktem.cpp
+
+${OBJECTDIR}/Chapter14/stckoptr1.o: Chapter14/stckoptr1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/stckoptr1.o Chapter14/stckoptr1.cpp
+
+${OBJECTDIR}/Chapter14/studentc.o: Chapter14/studentc.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/studentc.o Chapter14/studentc.cpp
+
+${OBJECTDIR}/Chapter14/studenti.o: Chapter14/studenti.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/studenti.o Chapter14/studenti.cpp
+
+${OBJECTDIR}/Chapter14/tempmemb.o: Chapter14/tempmemb.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/tempmemb.o Chapter14/tempmemb.cpp
+
+${OBJECTDIR}/Chapter14/tempparm.o: Chapter14/tempparm.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/tempparm.o Chapter14/tempparm.cpp
+
+${OBJECTDIR}/Chapter14/tmp2tmp.o: Chapter14/tmp2tmp.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/tmp2tmp.o Chapter14/tmp2tmp.cpp
+
+${OBJECTDIR}/Chapter14/twod.o: Chapter14/twod.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/twod.o Chapter14/twod.cpp
+
+${OBJECTDIR}/Chapter14/use_stuc.o: Chapter14/use_stuc.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/use_stuc.o Chapter14/use_stuc.cpp
+
+${OBJECTDIR}/Chapter14/use_stui.o: Chapter14/use_stui.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/use_stui.o Chapter14/use_stui.cpp
+
+${OBJECTDIR}/Chapter14/usewine.o: Chapter14/usewine.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/usewine.o Chapter14/usewine.cpp
+
+${OBJECTDIR}/Chapter14/wine.o: Chapter14/wine.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/wine.o Chapter14/wine.cpp
+
+${OBJECTDIR}/Chapter14/worker0.o: Chapter14/worker0.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/worker0.o Chapter14/worker0.cpp
+
+${OBJECTDIR}/Chapter14/workermi.o: Chapter14/workermi.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/workermi.o Chapter14/workermi.cpp
+
+${OBJECTDIR}/Chapter14/workmi.o: Chapter14/workmi.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/workmi.o Chapter14/workmi.cpp
+
+${OBJECTDIR}/Chapter14/worktest.o: Chapter14/worktest.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/worktest.o Chapter14/worktest.cpp
 
 # Subprojects
 .build-subprojects:

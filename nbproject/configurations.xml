@@ -72,6 +72,36 @@
         <itemPath>Chapter13/usett0.cpp</itemPath>
         <itemPath>Chapter13/usett1.cpp</itemPath>
       </logicalFolder>
+      <logicalFolder name="Chapter14" displayName="Chapter14" projectFiles="true">
+        <itemPath>Chapter14/arraytp.h</itemPath>
+        <itemPath>Chapter14/frnd2tmp.cpp</itemPath>
+        <itemPath>Chapter14/manyfrnd.cpp</itemPath>
+        <itemPath>Chapter14/pairs.cpp</itemPath>
+        <itemPath>Chapter14/pairs.h</itemPath>
+        <itemPath>Chapter14/stacktem.cpp</itemPath>
+        <itemPath>Chapter14/stacktp.h</itemPath>
+        <itemPath>Chapter14/stckoptr1.cpp</itemPath>
+        <itemPath>Chapter14/stcktp1.h</itemPath>
+        <itemPath>Chapter14/studentc.cpp</itemPath>
+        <itemPath>Chapter14/studentc.h</itemPath>
+        <itemPath>Chapter14/studenti.cpp</itemPath>
+        <itemPath>Chapter14/studenti.h</itemPath>
+        <itemPath>Chapter14/tempmemb.cpp</itemPath>
+        <itemPath>Chapter14/tempparm.cpp</itemPath>
+        <itemPath>Chapter14/tmp2tmp.cpp</itemPath>
+        <itemPath>Chapter14/twod.cpp</itemPath>
+        <itemPath>Chapter14/use_stuc.cpp</itemPath>
+        <itemPath>Chapter14/use_stui.cpp</itemPath>
+        <itemPath>Chapter14/usewine.cpp</itemPath>
+        <itemPath>Chapter14/wine.cpp</itemPath>
+        <itemPath>Chapter14/wine.h</itemPath>
+        <itemPath>Chapter14/worker0.cpp</itemPath>
+        <itemPath>Chapter14/worker0.h</itemPath>
+        <itemPath>Chapter14/workermi.cpp</itemPath>
+        <itemPath>Chapter14/workermi.h</itemPath>
+        <itemPath>Chapter14/workmi.cpp</itemPath>
+        <itemPath>Chapter14/worktest.cpp</itemPath>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="HeaderFiles"
                    displayName="Файлы заголовков"
@@ -98,6 +128,7 @@
     <Elem>Chapter12</Elem>
     <Elem>Chapter10</Elem>
     <Elem>Chapter13</Elem>
+    <Elem>Chapter14</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -168,6 +199,38 @@
       <item path="Chapter13/tabtenn1.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Chapter13/useport.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/arraytp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter14/manyfrnd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/pairs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter14/stacktp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter14/stcktp1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter14/studentc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/studentc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter14/studenti.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/studenti.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter14/usewine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/wine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/wine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter14/worker0.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/worker0.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter14/workermi.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/workermi.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -313,6 +376,62 @@
       <item path="Chapter13/usett0.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Chapter13/usett1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/arraytp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter14/frnd2tmp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/manyfrnd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/pairs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/pairs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter14/stacktem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/stacktp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter14/stckoptr1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/stcktp1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter14/studentc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/studentc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter14/studenti.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/studenti.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter14/tempmemb.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/tempparm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/tmp2tmp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/twod.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/use_stuc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/use_stui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/usewine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/wine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/wine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter14/worker0.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/worker0.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter14/workermi.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/workermi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter14/workmi.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/worktest.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
   </confs>
