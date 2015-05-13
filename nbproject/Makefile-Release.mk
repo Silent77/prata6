@@ -80,6 +80,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Chapter14/frnd2tmp.o \
 	${OBJECTDIR}/Chapter14/manyfrnd.o \
 	${OBJECTDIR}/Chapter14/pairs.o \
+	${OBJECTDIR}/Chapter14/person.o \
 	${OBJECTDIR}/Chapter14/stacktem.o \
 	${OBJECTDIR}/Chapter14/stckoptr1.o \
 	${OBJECTDIR}/Chapter14/studentc.o \
@@ -90,12 +91,32 @@ OBJECTFILES= \
 	${OBJECTDIR}/Chapter14/twod.o \
 	${OBJECTDIR}/Chapter14/use_stuc.o \
 	${OBJECTDIR}/Chapter14/use_stui.o \
+	${OBJECTDIR}/Chapter14/useperson.o \
 	${OBJECTDIR}/Chapter14/usewine.o \
 	${OBJECTDIR}/Chapter14/wine.o \
+	${OBJECTDIR}/Chapter14/wine_1.o \
 	${OBJECTDIR}/Chapter14/worker0.o \
 	${OBJECTDIR}/Chapter14/workermi.o \
 	${OBJECTDIR}/Chapter14/workmi.o \
-	${OBJECTDIR}/Chapter14/worktest.o
+	${OBJECTDIR}/Chapter14/workmiq.o \
+	${OBJECTDIR}/Chapter14/workmiq_1.o \
+	${OBJECTDIR}/Chapter14/worktest.o \
+	${OBJECTDIR}/Chapter15/constcast.o \
+	${OBJECTDIR}/Chapter15/error1.o \
+	${OBJECTDIR}/Chapter15/error2.o \
+	${OBJECTDIR}/Chapter15/error3.o \
+	${OBJECTDIR}/Chapter15/error4.o \
+	${OBJECTDIR}/Chapter15/error5.o \
+	${OBJECTDIR}/Chapter15/nested.o \
+	${OBJECTDIR}/Chapter15/newexcp.o \
+	${OBJECTDIR}/Chapter15/newexcpn.o \
+	${OBJECTDIR}/Chapter15/rtti1.o \
+	${OBJECTDIR}/Chapter15/rtti2.o \
+	${OBJECTDIR}/Chapter15/sales.o \
+	${OBJECTDIR}/Chapter15/tv.o \
+	${OBJECTDIR}/Chapter15/use_sales.o \
+	${OBJECTDIR}/Chapter15/use_tv.o \
+	${OBJECTDIR}/Chapter15/use_tvfm.o
 
 
 # C Compiler Flags
@@ -347,6 +368,11 @@ ${OBJECTDIR}/Chapter14/pairs.o: Chapter14/pairs.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/pairs.o Chapter14/pairs.cpp
 
+${OBJECTDIR}/Chapter14/person.o: Chapter14/person.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/person.o Chapter14/person.cpp
+
 ${OBJECTDIR}/Chapter14/stacktem.o: Chapter14/stacktem.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Chapter14
 	${RM} "$@.d"
@@ -397,6 +423,11 @@ ${OBJECTDIR}/Chapter14/use_stui.o: Chapter14/use_stui.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/use_stui.o Chapter14/use_stui.cpp
 
+${OBJECTDIR}/Chapter14/useperson.o: Chapter14/useperson.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/useperson.o Chapter14/useperson.cpp
+
 ${OBJECTDIR}/Chapter14/usewine.o: Chapter14/usewine.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Chapter14
 	${RM} "$@.d"
@@ -406,6 +437,11 @@ ${OBJECTDIR}/Chapter14/wine.o: Chapter14/wine.cpp
 	${MKDIR} -p ${OBJECTDIR}/Chapter14
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/wine.o Chapter14/wine.cpp
+
+${OBJECTDIR}/Chapter14/wine_1.o: Chapter14/wine_1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/wine_1.o Chapter14/wine_1.cpp
 
 ${OBJECTDIR}/Chapter14/worker0.o: Chapter14/worker0.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Chapter14
@@ -422,10 +458,100 @@ ${OBJECTDIR}/Chapter14/workmi.o: Chapter14/workmi.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/workmi.o Chapter14/workmi.cpp
 
+${OBJECTDIR}/Chapter14/workmiq.o: Chapter14/workmiq.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/workmiq.o Chapter14/workmiq.cpp
+
+${OBJECTDIR}/Chapter14/workmiq_1.o: Chapter14/workmiq_1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter14
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/workmiq_1.o Chapter14/workmiq_1.cpp
+
 ${OBJECTDIR}/Chapter14/worktest.o: Chapter14/worktest.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Chapter14
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/worktest.o Chapter14/worktest.cpp
+
+${OBJECTDIR}/Chapter15/constcast.o: Chapter15/constcast.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/constcast.o Chapter15/constcast.cpp
+
+${OBJECTDIR}/Chapter15/error1.o: Chapter15/error1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/error1.o Chapter15/error1.cpp
+
+${OBJECTDIR}/Chapter15/error2.o: Chapter15/error2.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/error2.o Chapter15/error2.cpp
+
+${OBJECTDIR}/Chapter15/error3.o: Chapter15/error3.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/error3.o Chapter15/error3.cpp
+
+${OBJECTDIR}/Chapter15/error4.o: Chapter15/error4.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/error4.o Chapter15/error4.cpp
+
+${OBJECTDIR}/Chapter15/error5.o: Chapter15/error5.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/error5.o Chapter15/error5.cpp
+
+${OBJECTDIR}/Chapter15/nested.o: Chapter15/nested.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/nested.o Chapter15/nested.cpp
+
+${OBJECTDIR}/Chapter15/newexcp.o: Chapter15/newexcp.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/newexcp.o Chapter15/newexcp.cpp
+
+${OBJECTDIR}/Chapter15/newexcpn.o: Chapter15/newexcpn.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/newexcpn.o Chapter15/newexcpn.cpp
+
+${OBJECTDIR}/Chapter15/rtti1.o: Chapter15/rtti1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/rtti1.o Chapter15/rtti1.cpp
+
+${OBJECTDIR}/Chapter15/rtti2.o: Chapter15/rtti2.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/rtti2.o Chapter15/rtti2.cpp
+
+${OBJECTDIR}/Chapter15/sales.o: Chapter15/sales.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/sales.o Chapter15/sales.cpp
+
+${OBJECTDIR}/Chapter15/tv.o: Chapter15/tv.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/tv.o Chapter15/tv.cpp
+
+${OBJECTDIR}/Chapter15/use_sales.o: Chapter15/use_sales.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/use_sales.o Chapter15/use_sales.cpp
+
+${OBJECTDIR}/Chapter15/use_tv.o: Chapter15/use_tv.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/use_tv.o Chapter15/use_tv.cpp
+
+${OBJECTDIR}/Chapter15/use_tvfm.o: Chapter15/use_tvfm.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/use_tvfm.o Chapter15/use_tvfm.cpp
 
 # Subprojects
 .build-subprojects:

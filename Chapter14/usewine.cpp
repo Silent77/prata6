@@ -7,7 +7,7 @@
 
 #include <cstdlib>
 #include <iostream>
-#include "wine.h"
+#include "wine_1.h"
 
 /*
  * 
@@ -26,7 +26,15 @@ int main(int argc, char** argv) {
     
     holding.GetBottles();
     holding.Show();
-    cout << "Total bottles for " << holding.Label() << " is " <<holding.sum() << endl;
+    
+    const int YRS = 3;
+    int y[YRS] = {1950, 1960, 1970};
+    int b[YRS] = {5 , 10 , 24};
+    
+    Wine more("Kaberne", YRS, y, b);
+    more.Show();
+    
+    cout << "Total bottles for " << more.Label() << " is " <<more.sum() << endl;
     cout << "Bye!\n";
     return 0;
 }

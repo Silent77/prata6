@@ -11,14 +11,14 @@
 #include <string>
 #include "pairs.h"
 
-class Wine
+typedef Pair< std::valarray<int>, std::valarray<int> >  PairArray;
+class Wine : private PairArray
 {
-private:
-    typedef Pair< std::valarray<int>, std::valarray<int> >  PairArray;
+private:  
     typedef std::valarray<int> ArrayInt;
     std::string label_;
     int years_num_;
-    PairArray vintages_;
+    
 public:    
     Wine();    
     Wine(const char * label, int y);
@@ -27,7 +27,7 @@ public:
     void GetBottles();  // Input vingates_
     void Show() const;  // Show vintages
     const std::string & Label() const { return label_; };
-    int sum() const { return vintages_.second().sum(); };    // Total number of bottles
+    int sum() const { return PairArray::second().sum(); };    // Total number of bottles
 };
 
 #endif	/* WINE_H */

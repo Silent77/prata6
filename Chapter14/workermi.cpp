@@ -4,6 +4,10 @@
 using std::cout;
 using std::cin;
 using std::endl;
+
+int Worker::num_of_constructors_ = 0;
+int Worker::num_of_destructors_ = 0;
+
 // Worker methods
 Worker::~Worker() { }
 

@@ -44,14 +44,10 @@ OBJECTFILES= \
 	${OBJECTDIR}/Chapter13/dma1.o \
 	${OBJECTDIR}/Chapter13/port.o \
 	${OBJECTDIR}/Chapter13/tabtenn1.o \
-	${OBJECTDIR}/Chapter13/useport.o \
-	${OBJECTDIR}/Chapter14/manyfrnd.o \
-	${OBJECTDIR}/Chapter14/studentc.o \
-	${OBJECTDIR}/Chapter14/studenti.o \
-	${OBJECTDIR}/Chapter14/usewine.o \
-	${OBJECTDIR}/Chapter14/wine.o \
-	${OBJECTDIR}/Chapter14/worker0.o \
-	${OBJECTDIR}/Chapter14/workermi.o
+	${OBJECTDIR}/Chapter14/person.o \
+	${OBJECTDIR}/Chapter15/error5.o \
+	${OBJECTDIR}/Chapter15/sales.o \
+	${OBJECTDIR}/Chapter15/tv.o
 
 
 # C Compiler Flags
@@ -123,45 +119,25 @@ ${OBJECTDIR}/Chapter13/tabtenn1.o: Chapter13/tabtenn1.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/tabtenn1.o Chapter13/tabtenn1.cpp
 
-${OBJECTDIR}/Chapter13/useport.o: Chapter13/useport.cpp 
-	${MKDIR} -p ${OBJECTDIR}/Chapter13
-	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter13/useport.o Chapter13/useport.cpp
-
-${OBJECTDIR}/Chapter14/manyfrnd.o: Chapter14/manyfrnd.cpp 
+${OBJECTDIR}/Chapter14/person.o: Chapter14/person.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Chapter14
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/manyfrnd.o Chapter14/manyfrnd.cpp
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/person.o Chapter14/person.cpp
 
-${OBJECTDIR}/Chapter14/studentc.o: Chapter14/studentc.cpp 
-	${MKDIR} -p ${OBJECTDIR}/Chapter14
+${OBJECTDIR}/Chapter15/error5.o: Chapter15/error5.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/studentc.o Chapter14/studentc.cpp
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/error5.o Chapter15/error5.cpp
 
-${OBJECTDIR}/Chapter14/studenti.o: Chapter14/studenti.cpp 
-	${MKDIR} -p ${OBJECTDIR}/Chapter14
+${OBJECTDIR}/Chapter15/sales.o: Chapter15/sales.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/studenti.o Chapter14/studenti.cpp
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/sales.o Chapter15/sales.cpp
 
-${OBJECTDIR}/Chapter14/usewine.o: Chapter14/usewine.cpp 
-	${MKDIR} -p ${OBJECTDIR}/Chapter14
+${OBJECTDIR}/Chapter15/tv.o: Chapter15/tv.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/usewine.o Chapter14/usewine.cpp
-
-${OBJECTDIR}/Chapter14/wine.o: Chapter14/wine.cpp 
-	${MKDIR} -p ${OBJECTDIR}/Chapter14
-	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/wine.o Chapter14/wine.cpp
-
-${OBJECTDIR}/Chapter14/worker0.o: Chapter14/worker0.cpp 
-	${MKDIR} -p ${OBJECTDIR}/Chapter14
-	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/worker0.o Chapter14/worker0.cpp
-
-${OBJECTDIR}/Chapter14/workermi.o: Chapter14/workermi.cpp 
-	${MKDIR} -p ${OBJECTDIR}/Chapter14
-	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/workermi.o Chapter14/workermi.cpp
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/tv.o Chapter15/tv.cpp
 
 # Subprojects
 .build-subprojects:

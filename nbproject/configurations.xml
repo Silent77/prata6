@@ -78,6 +78,9 @@
         <itemPath>Chapter14/manyfrnd.cpp</itemPath>
         <itemPath>Chapter14/pairs.cpp</itemPath>
         <itemPath>Chapter14/pairs.h</itemPath>
+        <itemPath>Chapter14/person.cpp</itemPath>
+        <itemPath>Chapter14/person.h</itemPath>
+        <itemPath>Chapter14/queuetp.h</itemPath>
         <itemPath>Chapter14/stacktem.cpp</itemPath>
         <itemPath>Chapter14/stacktp.h</itemPath>
         <itemPath>Chapter14/stckoptr1.cpp</itemPath>
@@ -92,15 +95,43 @@
         <itemPath>Chapter14/twod.cpp</itemPath>
         <itemPath>Chapter14/use_stuc.cpp</itemPath>
         <itemPath>Chapter14/use_stui.cpp</itemPath>
+        <itemPath>Chapter14/useperson.cpp</itemPath>
         <itemPath>Chapter14/usewine.cpp</itemPath>
         <itemPath>Chapter14/wine.cpp</itemPath>
         <itemPath>Chapter14/wine.h</itemPath>
+        <itemPath>Chapter14/wine_1.cpp</itemPath>
+        <itemPath>Chapter14/wine_1.h</itemPath>
         <itemPath>Chapter14/worker0.cpp</itemPath>
         <itemPath>Chapter14/worker0.h</itemPath>
         <itemPath>Chapter14/workermi.cpp</itemPath>
         <itemPath>Chapter14/workermi.h</itemPath>
         <itemPath>Chapter14/workmi.cpp</itemPath>
+        <itemPath>Chapter14/workmiq.cpp</itemPath>
+        <itemPath>Chapter14/workmiq_1.cpp</itemPath>
         <itemPath>Chapter14/worktest.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Chapter15" displayName="Chapter15" projectFiles="true">
+        <itemPath>Chapter15/constcast.cpp</itemPath>
+        <itemPath>Chapter15/error1.cpp</itemPath>
+        <itemPath>Chapter15/error2.cpp</itemPath>
+        <itemPath>Chapter15/error3.cpp</itemPath>
+        <itemPath>Chapter15/error4.cpp</itemPath>
+        <itemPath>Chapter15/error5.cpp</itemPath>
+        <itemPath>Chapter15/exc_mean.h</itemPath>
+        <itemPath>Chapter15/nested.cpp</itemPath>
+        <itemPath>Chapter15/newexcp.cpp</itemPath>
+        <itemPath>Chapter15/newexcpn.cpp</itemPath>
+        <itemPath>Chapter15/queuetp.h</itemPath>
+        <itemPath>Chapter15/rtti1.cpp</itemPath>
+        <itemPath>Chapter15/rtti2.cpp</itemPath>
+        <itemPath>Chapter15/sales.cpp</itemPath>
+        <itemPath>Chapter15/sales.h</itemPath>
+        <itemPath>Chapter15/tv.cpp</itemPath>
+        <itemPath>Chapter15/tv.h</itemPath>
+        <itemPath>Chapter15/tvfm.h</itemPath>
+        <itemPath>Chapter15/use_sales.cpp</itemPath>
+        <itemPath>Chapter15/use_tv.cpp</itemPath>
+        <itemPath>Chapter15/use_tvfm.cpp</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="HeaderFiles"
@@ -129,6 +160,7 @@
     <Elem>Chapter10</Elem>
     <Elem>Chapter13</Elem>
     <Elem>Chapter14</Elem>
+    <Elem>Chapter15</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -198,39 +230,47 @@
       </item>
       <item path="Chapter13/tabtenn1.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Chapter13/useport.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="Chapter14/arraytp.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Chapter14/manyfrnd.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="Chapter14/pairs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter14/person.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/person.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter14/queuetp.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Chapter14/stacktp.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Chapter14/stcktp1.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Chapter14/studentc.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="Chapter14/studentc.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="Chapter14/studenti.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Chapter14/studenti.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Chapter14/usewine.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="Chapter14/wine.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="Chapter14/wine.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Chapter14/worker0.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Chapter14/wine_1.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Chapter14/worker0.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Chapter14/workermi.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="Chapter14/workermi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter15/error5.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter15/exc_mean.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter15/queuetp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter15/sales.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter15/sales.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter15/tv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter15/tv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter15/tvfm.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -387,6 +427,12 @@
       </item>
       <item path="Chapter14/pairs.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Chapter14/person.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/person.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter14/queuetp.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Chapter14/stacktem.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Chapter14/stacktp.h" ex="false" tool="3" flavor2="0">
@@ -415,11 +461,17 @@
       </item>
       <item path="Chapter14/use_stui.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="Chapter14/useperson.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="Chapter14/usewine.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Chapter14/wine.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Chapter14/wine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter14/wine_1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/wine_1.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Chapter14/worker0.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -431,7 +483,53 @@
       </item>
       <item path="Chapter14/workmi.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="Chapter14/workmiq.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter14/workmiq_1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="Chapter14/worktest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter15/constcast.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter15/error1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter15/error2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter15/error3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter15/error4.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter15/error5.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter15/exc_mean.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter15/nested.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter15/newexcp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter15/newexcpn.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter15/queuetp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter15/rtti1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter15/rtti2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter15/sales.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter15/sales.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter15/tv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter15/tv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter15/tvfm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter15/use_sales.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter15/use_tv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter15/use_tvfm.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
   </confs>

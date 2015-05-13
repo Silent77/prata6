@@ -1,17 +1,17 @@
 #include <iostream>
-#include "wine.h"
+#include "wine_1.h"
 
-Wine::Wine():years_num_(0), label_("none")
+Wine::Wine():years_num_(0), label_("none"), PairArray(ArrayInt(0), ArrayInt(0))
 {
-    vintages_ = PairArray(ArrayInt(0), ArrayInt(0));
+    ;
 };
 
-Wine::Wine(const char* label, int y): label_(label), years_num_(y), vintages_(ArrayInt(y),ArrayInt(y))
+Wine::Wine(const char* label, int y): label_(label), years_num_(y), PairArray(ArrayInt(y),ArrayInt(y))
 {
 
 }
 
-Wine::Wine(const char* label, int y, const int yr[], const int bot[]):label_(label), years_num_(y), vintages_(ArrayInt(yr,y), ArrayInt(bot,y))
+Wine::Wine(const char* label, int y, const int yr[], const int bot[]):label_(label), years_num_(y), PairArray(ArrayInt(yr,y), ArrayInt(bot,y))
 {
 
 }
@@ -24,9 +24,9 @@ void Wine::Show() const
     for (int i = 0; i < years_num_; i++)
     {
         std::cout.width(6);
-        std::cout << vintages_.first()[i];
+        std::cout << PairArray::first()[i];
         std::cout.width(6);
-        std::cout << vintages_.second()[i] << std::endl;
+        std::cout << PairArray::second()[i] << std::endl;
     }
 }
 
@@ -40,9 +40,9 @@ void Wine::GetBottles()
     for (int i = 0; i < years_num_; i++)
     {
         std::cout << "Enter year: ";
-        std::cin >> vintages_.first()[i];
+        std::cin >> PairArray::first()[i];
         std::cout << "Enter bottles for that year: ";
-        std::cin >> vintages_.second()[i];        
+        std::cin >> PairArray::second()[i];        
     }
 }
 

@@ -6,16 +6,22 @@
 
 class Worker   // an abstract base class
 {
+
 private:
+
     std::string fullname;
     long id;
 protected:
     virtual void Data() const;
     virtual void Get();
 public:
-    Worker() : fullname("no one"), id(0L) {}
+    static int num_of_constructors_;
+    static int num_of_destructors_;    
+    Worker() : fullname("no one"), id(0L) { num_of_constructors_++; }
     Worker(const std::string & s, long n)
-            : fullname(s), id(n) {}
+            : fullname(s), id(n) { num_of_constructors_++; }
+    static int GetConstructorCalls() { return num_of_constructors_; }
+    static int GetDEstructorsCalls() { return num_of_destructors_; }    
     virtual ~Worker() = 0; // pure virtual function
     virtual void Set() = 0;
     virtual void Show() const = 0;
@@ -34,6 +40,7 @@ public:
             : Worker(s, n), panache(p) {}
     Waiter(const Worker & wk, int p = 0)
             : Worker(wk), panache(p) {}
+
     void Set();
     void Show() const;
 };
