@@ -106,7 +106,9 @@ OBJECTFILES= \
 	${OBJECTDIR}/Chapter15/error2.o \
 	${OBJECTDIR}/Chapter15/error3.o \
 	${OBJECTDIR}/Chapter15/error4.o \
+	${OBJECTDIR}/Chapter15/error4_1.o \
 	${OBJECTDIR}/Chapter15/error5.o \
+	${OBJECTDIR}/Chapter15/exc_mean.o \
 	${OBJECTDIR}/Chapter15/nested.o \
 	${OBJECTDIR}/Chapter15/newexcp.o \
 	${OBJECTDIR}/Chapter15/newexcpn.o \
@@ -114,8 +116,11 @@ OBJECTFILES= \
 	${OBJECTDIR}/Chapter15/rtti2.o \
 	${OBJECTDIR}/Chapter15/sales.o \
 	${OBJECTDIR}/Chapter15/tv.o \
+	${OBJECTDIR}/Chapter15/tv_1.o \
 	${OBJECTDIR}/Chapter15/use_sales.o \
+	${OBJECTDIR}/Chapter15/use_sales_1.o \
 	${OBJECTDIR}/Chapter15/use_tv.o \
+	${OBJECTDIR}/Chapter15/use_tv_1.o \
 	${OBJECTDIR}/Chapter15/use_tvfm.o
 
 
@@ -498,10 +503,20 @@ ${OBJECTDIR}/Chapter15/error4.o: Chapter15/error4.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/error4.o Chapter15/error4.cpp
 
+${OBJECTDIR}/Chapter15/error4_1.o: Chapter15/error4_1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/error4_1.o Chapter15/error4_1.cpp
+
 ${OBJECTDIR}/Chapter15/error5.o: Chapter15/error5.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Chapter15
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/error5.o Chapter15/error5.cpp
+
+${OBJECTDIR}/Chapter15/exc_mean.o: Chapter15/exc_mean.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/exc_mean.o Chapter15/exc_mean.cpp
 
 ${OBJECTDIR}/Chapter15/nested.o: Chapter15/nested.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Chapter15
@@ -538,15 +553,30 @@ ${OBJECTDIR}/Chapter15/tv.o: Chapter15/tv.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/tv.o Chapter15/tv.cpp
 
+${OBJECTDIR}/Chapter15/tv_1.o: Chapter15/tv_1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/tv_1.o Chapter15/tv_1.cpp
+
 ${OBJECTDIR}/Chapter15/use_sales.o: Chapter15/use_sales.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Chapter15
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/use_sales.o Chapter15/use_sales.cpp
 
+${OBJECTDIR}/Chapter15/use_sales_1.o: Chapter15/use_sales_1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/use_sales_1.o Chapter15/use_sales_1.cpp
+
 ${OBJECTDIR}/Chapter15/use_tv.o: Chapter15/use_tv.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Chapter15
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/use_tv.o Chapter15/use_tv.cpp
+
+${OBJECTDIR}/Chapter15/use_tv_1.o: Chapter15/use_tv_1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/use_tv_1.o Chapter15/use_tv_1.cpp
 
 ${OBJECTDIR}/Chapter15/use_tvfm.o: Chapter15/use_tvfm.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Chapter15

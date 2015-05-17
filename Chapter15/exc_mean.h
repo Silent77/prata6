@@ -1,32 +1,30 @@
 // exc_mean.h  -- exception classes for hmean(), gmean()
 #include <iostream>
+#include <stdexcept> // logic_error
+#include <string>
 
-class bad_hmean
+using std::logic_error;
+
+class bad_mean : public logic_error
 {
 private:
-    double v1;
-    double v2;
+    double v1_;
+    double v2_;
 public:
-    bad_hmean(double a = 0, double b = 0) : v1(a), v2(b){}
-    void mesg();
+    bad_mean(double a = 0, double b = 0, const std::string & s = "Exception <bad mean> occured.\n") : logic_error(s), v1_(a), v2_(b) {};
+    virtual void show_args() const;             // show arguments
 };
 
-inline void bad_hmean::mesg()
-{   
-    std::cout << "hmean(" << v1 << ", " << v2 <<"): "
-              << "invalid arguments: a = -b\n";
-}
-
-class bad_gmean
+class bad_hmean : public bad_mean
 {
 public:
-    double v1;
-    double v2;
-    bad_gmean(double a = 0, double b = 0) : v1(a), v2(b){}
-    const char * mesg();
+    bad_hmean(double a = 0, double b = 0, const std::string & s = "hmean() invalid arguments: a = -b\n") : bad_mean(a, b, s) {};
+ //   virtual ~bad_hmean() throw() {};
 };
 
-inline const char * bad_gmean::mesg()
-{  
-    return "gmean() arguments should be >= 0\n";
-}
+class bad_gmean : public bad_mean
+{   
+public:
+    bad_gmean(double a = 0, double b = 0, const std::string & s = "gmean() arguments should be >= 0\n") : bad_mean (a, b, s) {};    
+ //   virtual ~bad_gmean() throw() {};
+};

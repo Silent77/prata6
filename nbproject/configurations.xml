@@ -116,7 +116,9 @@
         <itemPath>Chapter15/error2.cpp</itemPath>
         <itemPath>Chapter15/error3.cpp</itemPath>
         <itemPath>Chapter15/error4.cpp</itemPath>
+        <itemPath>Chapter15/error4_1.cpp</itemPath>
         <itemPath>Chapter15/error5.cpp</itemPath>
+        <itemPath>Chapter15/exc_mean.cpp</itemPath>
         <itemPath>Chapter15/exc_mean.h</itemPath>
         <itemPath>Chapter15/nested.cpp</itemPath>
         <itemPath>Chapter15/newexcp.cpp</itemPath>
@@ -128,9 +130,13 @@
         <itemPath>Chapter15/sales.h</itemPath>
         <itemPath>Chapter15/tv.cpp</itemPath>
         <itemPath>Chapter15/tv.h</itemPath>
+        <itemPath>Chapter15/tv_1.cpp</itemPath>
+        <itemPath>Chapter15/tv_1.h</itemPath>
         <itemPath>Chapter15/tvfm.h</itemPath>
         <itemPath>Chapter15/use_sales.cpp</itemPath>
+        <itemPath>Chapter15/use_sales_1.cpp</itemPath>
         <itemPath>Chapter15/use_tv.cpp</itemPath>
+        <itemPath>Chapter15/use_tv_1.cpp</itemPath>
         <itemPath>Chapter15/use_tvfm.cpp</itemPath>
       </logicalFolder>
     </logicalFolder>
@@ -256,7 +262,7 @@
       </item>
       <item path="Chapter14/workermi.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Chapter15/error5.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Chapter15/exc_mean.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Chapter15/exc_mean.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -266,11 +272,15 @@
       </item>
       <item path="Chapter15/sales.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Chapter15/tv.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="Chapter15/tv.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Chapter15/tv_1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter15/tv_1.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Chapter15/tvfm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter15/use_sales_1.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -499,7 +509,11 @@
       </item>
       <item path="Chapter15/error4.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="Chapter15/error4_1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="Chapter15/error5.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter15/exc_mean.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Chapter15/exc_mean.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -523,11 +537,19 @@
       </item>
       <item path="Chapter15/tv.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Chapter15/tv_1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter15/tv_1.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Chapter15/tvfm.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Chapter15/use_sales.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="Chapter15/use_sales_1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="Chapter15/use_tv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter15/use_tv_1.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Chapter15/use_tvfm.cpp" ex="false" tool="1" flavor2="0">
       </item>

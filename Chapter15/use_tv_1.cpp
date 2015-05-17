@@ -5,6 +5,8 @@
 int main()
 {
     using std::cout;
+    using std::endl;
+    
     Tv s42;
     cout << "Initial settings for 42\" TV:\n";
     s42.settings();
@@ -21,12 +23,16 @@ int main()
     cout << "\n42\" settings after using remote:\n";
     s42.settings();
 
-    Tv s58(Tv::On);
+    Tv s58(Tv::On);    
     s58.set_mode();
+    
+    s58.change_remote(grey);
     grey.set_chan(s58,28);
     cout << "\n58\" settings:\n";
     s58.settings();
     // std::cin.get();
-
+    cout << "\nRemote state:" << endl;
+    grey.show_mode();
+   
     return 0; 
 }

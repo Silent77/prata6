@@ -45,9 +45,10 @@ OBJECTFILES= \
 	${OBJECTDIR}/Chapter13/port.o \
 	${OBJECTDIR}/Chapter13/tabtenn1.o \
 	${OBJECTDIR}/Chapter14/person.o \
-	${OBJECTDIR}/Chapter15/error5.o \
+	${OBJECTDIR}/Chapter15/exc_mean.o \
 	${OBJECTDIR}/Chapter15/sales.o \
-	${OBJECTDIR}/Chapter15/tv.o
+	${OBJECTDIR}/Chapter15/tv_1.o \
+	${OBJECTDIR}/Chapter15/use_sales_1.o
 
 
 # C Compiler Flags
@@ -124,20 +125,25 @@ ${OBJECTDIR}/Chapter14/person.o: Chapter14/person.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter14/person.o Chapter14/person.cpp
 
-${OBJECTDIR}/Chapter15/error5.o: Chapter15/error5.cpp 
+${OBJECTDIR}/Chapter15/exc_mean.o: Chapter15/exc_mean.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Chapter15
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/error5.o Chapter15/error5.cpp
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/exc_mean.o Chapter15/exc_mean.cpp
 
 ${OBJECTDIR}/Chapter15/sales.o: Chapter15/sales.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Chapter15
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/sales.o Chapter15/sales.cpp
 
-${OBJECTDIR}/Chapter15/tv.o: Chapter15/tv.cpp 
+${OBJECTDIR}/Chapter15/tv_1.o: Chapter15/tv_1.cpp 
 	${MKDIR} -p ${OBJECTDIR}/Chapter15
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/tv.o Chapter15/tv.cpp
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/tv_1.o Chapter15/tv_1.cpp
+
+${OBJECTDIR}/Chapter15/use_sales_1.o: Chapter15/use_sales_1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter15
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/use_sales_1.o Chapter15/use_sales_1.cpp
 
 # Subprojects
 .build-subprojects:
