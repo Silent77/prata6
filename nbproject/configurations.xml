@@ -139,6 +139,37 @@
         <itemPath>Chapter15/use_tv_1.cpp</itemPath>
         <itemPath>Chapter15/use_tvfm.cpp</itemPath>
       </logicalFolder>
+      <logicalFolder name="Chapter16" displayName="Chapter16" projectFiles="true">
+        <itemPath>Chapter16/copyit.cpp</itemPath>
+        <itemPath>Chapter16/fowl.cpp</itemPath>
+        <itemPath>Chapter16/fowlsp.cpp</itemPath>
+        <itemPath>Chapter16/fowlup.cpp</itemPath>
+        <itemPath>Chapter16/funadap.cpp</itemPath>
+        <itemPath>Chapter16/functor.cpp</itemPath>
+        <itemPath>Chapter16/hangman.cpp</itemPath>
+        <itemPath>Chapter16/ilist.cpp</itemPath>
+        <itemPath>Chapter16/inserts.cpp</itemPath>
+        <itemPath>Chapter16/insertsvar.cpp</itemPath>
+        <itemPath>Chapter16/list.cpp</itemPath>
+        <itemPath>Chapter16/listrmv.cpp</itemPath>
+        <itemPath>Chapter16/multmap.cpp</itemPath>
+        <itemPath>Chapter16/setops.cpp</itemPath>
+        <itemPath>Chapter16/smrtptrs.cpp</itemPath>
+        <itemPath>Chapter16/str1.cpp</itemPath>
+        <itemPath>Chapter16/str2.cpp</itemPath>
+        <itemPath>Chapter16/strfile.cpp</itemPath>
+        <itemPath>Chapter16/strngstl.cpp</itemPath>
+        <itemPath>Chapter16/tobuy.txt</itemPath>
+        <itemPath>Chapter16/unique.cpp</itemPath>
+        <itemPath>Chapter16/usealgo.cpp</itemPath>
+        <itemPath>Chapter16/valarr0x.cpp</itemPath>
+        <itemPath>Chapter16/valvect.cpp</itemPath>
+        <itemPath>Chapter16/vect1.cpp</itemPath>
+        <itemPath>Chapter16/vect2.cpp</itemPath>
+        <itemPath>Chapter16/vect3.cpp</itemPath>
+        <itemPath>Chapter16/vectlist.cpp</itemPath>
+        <itemPath>Chapter16/vslice.cpp</itemPath>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="HeaderFiles"
                    displayName="Файлы заголовков"
@@ -167,6 +198,7 @@
     <Elem>Chapter13</Elem>
     <Elem>Chapter14</Elem>
     <Elem>Chapter15</Elem>
+    <Elem>Chapter16</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -280,7 +312,9 @@
       </item>
       <item path="Chapter15/tvfm.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Chapter15/use_sales_1.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Chapter16/tobuy.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter16/vect3.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -552,6 +586,64 @@
       <item path="Chapter15/use_tv_1.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Chapter15/use_tvfm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/copyit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/fowl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/fowlsp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/fowlup.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/funadap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/functor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/hangman.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/ilist.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/inserts.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/insertsvar.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/list.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/listrmv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/multmap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/setops.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/smrtptrs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/str1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/str2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/strfile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/strngstl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/tobuy.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chapter16/unique.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/usealgo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/valarr0x.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/valvect.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/vect1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/vect2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/vect3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/vectlist.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chapter16/vslice.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
   </confs>

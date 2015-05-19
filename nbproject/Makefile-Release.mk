@@ -121,7 +121,35 @@ OBJECTFILES= \
 	${OBJECTDIR}/Chapter15/use_sales_1.o \
 	${OBJECTDIR}/Chapter15/use_tv.o \
 	${OBJECTDIR}/Chapter15/use_tv_1.o \
-	${OBJECTDIR}/Chapter15/use_tvfm.o
+	${OBJECTDIR}/Chapter15/use_tvfm.o \
+	${OBJECTDIR}/Chapter16/copyit.o \
+	${OBJECTDIR}/Chapter16/fowl.o \
+	${OBJECTDIR}/Chapter16/fowlsp.o \
+	${OBJECTDIR}/Chapter16/fowlup.o \
+	${OBJECTDIR}/Chapter16/funadap.o \
+	${OBJECTDIR}/Chapter16/functor.o \
+	${OBJECTDIR}/Chapter16/hangman.o \
+	${OBJECTDIR}/Chapter16/ilist.o \
+	${OBJECTDIR}/Chapter16/inserts.o \
+	${OBJECTDIR}/Chapter16/insertsvar.o \
+	${OBJECTDIR}/Chapter16/list.o \
+	${OBJECTDIR}/Chapter16/listrmv.o \
+	${OBJECTDIR}/Chapter16/multmap.o \
+	${OBJECTDIR}/Chapter16/setops.o \
+	${OBJECTDIR}/Chapter16/smrtptrs.o \
+	${OBJECTDIR}/Chapter16/str1.o \
+	${OBJECTDIR}/Chapter16/str2.o \
+	${OBJECTDIR}/Chapter16/strfile.o \
+	${OBJECTDIR}/Chapter16/strngstl.o \
+	${OBJECTDIR}/Chapter16/unique.o \
+	${OBJECTDIR}/Chapter16/usealgo.o \
+	${OBJECTDIR}/Chapter16/valarr0x.o \
+	${OBJECTDIR}/Chapter16/valvect.o \
+	${OBJECTDIR}/Chapter16/vect1.o \
+	${OBJECTDIR}/Chapter16/vect2.o \
+	${OBJECTDIR}/Chapter16/vect3.o \
+	${OBJECTDIR}/Chapter16/vectlist.o \
+	${OBJECTDIR}/Chapter16/vslice.o
 
 
 # C Compiler Flags
@@ -582,6 +610,146 @@ ${OBJECTDIR}/Chapter15/use_tvfm.o: Chapter15/use_tvfm.cpp
 	${MKDIR} -p ${OBJECTDIR}/Chapter15
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/use_tvfm.o Chapter15/use_tvfm.cpp
+
+${OBJECTDIR}/Chapter16/copyit.o: Chapter16/copyit.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/copyit.o Chapter16/copyit.cpp
+
+${OBJECTDIR}/Chapter16/fowl.o: Chapter16/fowl.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/fowl.o Chapter16/fowl.cpp
+
+${OBJECTDIR}/Chapter16/fowlsp.o: Chapter16/fowlsp.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/fowlsp.o Chapter16/fowlsp.cpp
+
+${OBJECTDIR}/Chapter16/fowlup.o: Chapter16/fowlup.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/fowlup.o Chapter16/fowlup.cpp
+
+${OBJECTDIR}/Chapter16/funadap.o: Chapter16/funadap.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/funadap.o Chapter16/funadap.cpp
+
+${OBJECTDIR}/Chapter16/functor.o: Chapter16/functor.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/functor.o Chapter16/functor.cpp
+
+${OBJECTDIR}/Chapter16/hangman.o: Chapter16/hangman.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/hangman.o Chapter16/hangman.cpp
+
+${OBJECTDIR}/Chapter16/ilist.o: Chapter16/ilist.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/ilist.o Chapter16/ilist.cpp
+
+${OBJECTDIR}/Chapter16/inserts.o: Chapter16/inserts.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/inserts.o Chapter16/inserts.cpp
+
+${OBJECTDIR}/Chapter16/insertsvar.o: Chapter16/insertsvar.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/insertsvar.o Chapter16/insertsvar.cpp
+
+${OBJECTDIR}/Chapter16/list.o: Chapter16/list.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/list.o Chapter16/list.cpp
+
+${OBJECTDIR}/Chapter16/listrmv.o: Chapter16/listrmv.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/listrmv.o Chapter16/listrmv.cpp
+
+${OBJECTDIR}/Chapter16/multmap.o: Chapter16/multmap.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/multmap.o Chapter16/multmap.cpp
+
+${OBJECTDIR}/Chapter16/setops.o: Chapter16/setops.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/setops.o Chapter16/setops.cpp
+
+${OBJECTDIR}/Chapter16/smrtptrs.o: Chapter16/smrtptrs.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/smrtptrs.o Chapter16/smrtptrs.cpp
+
+${OBJECTDIR}/Chapter16/str1.o: Chapter16/str1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/str1.o Chapter16/str1.cpp
+
+${OBJECTDIR}/Chapter16/str2.o: Chapter16/str2.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/str2.o Chapter16/str2.cpp
+
+${OBJECTDIR}/Chapter16/strfile.o: Chapter16/strfile.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/strfile.o Chapter16/strfile.cpp
+
+${OBJECTDIR}/Chapter16/strngstl.o: Chapter16/strngstl.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/strngstl.o Chapter16/strngstl.cpp
+
+${OBJECTDIR}/Chapter16/unique.o: Chapter16/unique.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/unique.o Chapter16/unique.cpp
+
+${OBJECTDIR}/Chapter16/usealgo.o: Chapter16/usealgo.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/usealgo.o Chapter16/usealgo.cpp
+
+${OBJECTDIR}/Chapter16/valarr0x.o: Chapter16/valarr0x.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/valarr0x.o Chapter16/valarr0x.cpp
+
+${OBJECTDIR}/Chapter16/valvect.o: Chapter16/valvect.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/valvect.o Chapter16/valvect.cpp
+
+${OBJECTDIR}/Chapter16/vect1.o: Chapter16/vect1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/vect1.o Chapter16/vect1.cpp
+
+${OBJECTDIR}/Chapter16/vect2.o: Chapter16/vect2.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/vect2.o Chapter16/vect2.cpp
+
+${OBJECTDIR}/Chapter16/vect3.o: Chapter16/vect3.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/vect3.o Chapter16/vect3.cpp
+
+${OBJECTDIR}/Chapter16/vectlist.o: Chapter16/vectlist.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/vectlist.o Chapter16/vectlist.cpp
+
+${OBJECTDIR}/Chapter16/vslice.o: Chapter16/vslice.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/vslice.o Chapter16/vslice.cpp
 
 # Subprojects
 .build-subprojects:

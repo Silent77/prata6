@@ -48,7 +48,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Chapter15/exc_mean.o \
 	${OBJECTDIR}/Chapter15/sales.o \
 	${OBJECTDIR}/Chapter15/tv_1.o \
-	${OBJECTDIR}/Chapter15/use_sales_1.o
+	${OBJECTDIR}/Chapter16/vect3.o
 
 
 # C Compiler Flags
@@ -140,10 +140,10 @@ ${OBJECTDIR}/Chapter15/tv_1.o: Chapter15/tv_1.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/tv_1.o Chapter15/tv_1.cpp
 
-${OBJECTDIR}/Chapter15/use_sales_1.o: Chapter15/use_sales_1.cpp 
-	${MKDIR} -p ${OBJECTDIR}/Chapter15
+${OBJECTDIR}/Chapter16/vect3.o: Chapter16/vect3.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Chapter16
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter15/use_sales_1.o Chapter15/use_sales_1.cpp
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Chapter16/vect3.o Chapter16/vect3.cpp
 
 # Subprojects
 .build-subprojects:
